@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.top{
+    height:100vh;
+    width:100%;
+    background-image:url("https://media.istockphoto.com/photos/abstract-geometric-surface-picture-id1150040604?b=1&k=20&m=1150040604&s=170667a&w=0&h=IkExdoVvYeUTlLg2hyJ4GW25u6U0IPMqasxJX_To8Yo=");
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding:20px 8%;
+}
+.logo{
+    color:gray;
+    font-size: 50px;
+    cursor:pointer;
+    text-transform: capitalize;
+}
+span{
+    color:black;
+}
+.sub{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+    padding:15px 50px;
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: aqua;
+    border-radius: 30px;
+    border: 2px solid transparent;
+   
+    padding:5px 25px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:black;
+    transition: .5s;
+}
+.sub:hover{
+    transform: scale(1.2);
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color:gray;
+    font-family:serif;
+}
+p{
+    font-size: 50px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.co{
+    text-transform: capitalize;
+}
+#Home{
+    padding-top: 100px;
+    display: none;
+
+}
+#About{
+    height:20px;
+    display: none;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.abt-para{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-family:cursive;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 300px;
+    color: gray;
+}
+.photo{
+    position: absolute;
+    left: 850px;
+    top: 200px; 
+}
+#Skills{
+    display:none;
+}
+.skillhead{
+    margin-bottom: 20px;
+}
+.sublist{
+    font-size: 25px;
+    list-style-type:circle;
+    margin-left: 500px;
+}
+#Contact{
+    text-align: center;
+    display: none;
+}
+#subcon{
+    margin-left: 20px;
+    font-size: 45px;
+}
+.icon{
+    border-radius: 8px;
+    box-shadow: 2px solid black;
+}
